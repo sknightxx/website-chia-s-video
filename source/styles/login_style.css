@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    color: white;
+    background: rgb(195,34,34);
+    background: linear-gradient(-45deg,rgba(253,45,132,0.7394607501203607) 0%, rgba(195,34,34,0.87) 100%);
+}
+
+.register-btn, .login-input, .login-btn {
+    border-radius: 10rem;
+}
+
+.login-input {
+    height: 45px;
+    width: 100%;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 0 1.3rem;
+}
+
+*:focus {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.075)
+}
+
+.submit-btn {
+    border-radius: 10rem;
+    height: 45px;
+    background: rgb(195,34,34);
+    background: linear-gradient(-45deg,rgba(253,45,132,0.7394607501203607) 0%, rgba(195,34,34,0.72) 100%);
+    border-color: rgba(253,45,132,0.7394607501203607);
+}
+
+.submit-btn:hover {
+    background: rgb(195,34,34);
+    background: linear-gradient(-45deg,rgba(253,45,132,0.7394607501203607) 10%, rgba(195,34,34,0.90) 100%);
+    border-color: rgba(253,45,132,0.7394607501203607);
+}
+.form-check-input:checked {
+    background-color: rgba(253,45,132,0.7394607501203607);
+    border-color: rgba(253,45,132,0.7394607501203607);
+}
+
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.25rem rgb(253 45 132 / 25%);
+}
+
+.remember-text {
+    background: -webkit-linear-gradient(-45deg,rgba(253,45,132,0.7394607501203607) 10%, rgba(195,34,34,0.90) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main, .header {
+    
+    border-radius: 5px;
+}
+
+.main {
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.15);
+    max-width: 1200px;
+}
